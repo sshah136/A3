@@ -82,6 +82,11 @@ class PatientActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnViewTest.setOnClickListener {
+            val intent = Intent(this,ViewTestActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.btnLogout.setOnClickListener {
             clearNurseIdFromSharedPreferences()
             val intent = Intent(this,MainLoginActivity::class.java)

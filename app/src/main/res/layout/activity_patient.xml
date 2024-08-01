@@ -49,6 +49,12 @@
         android:text="Enter Test Results" />
 
     <Button
+        android:id="@+id/btnViewTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Test Results" />
+
+    <Button
         android:id="@+id/btnLogout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
