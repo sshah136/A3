@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center_horizontal">
 
      <EditText
         android:id="@+id/etFirstName"
@@ -32,25 +33,27 @@
 
     <Button
         android:id="@+id/btnSavePatient"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save Patient" />
+        android:text="Save Patient"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="80dp"/>
 
     <Button
         android:id="@+id/btnViewPatient"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View/Update Patient" />
 
     <Button
         android:id="@+id/btnEnterTest"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Test Results" />
 
     <Button
         android:id="@+id/btnViewTest"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View Test Results" />
 
@@ -58,6 +61,7 @@
         android:id="@+id/btnLogout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:text="Logout" />
 
 </LinearLayout>
