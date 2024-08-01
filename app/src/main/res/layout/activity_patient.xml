@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp">
+
+     <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/etDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department" />
+
+    <EditText
+        android:id="@+id/etRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room" />
+
+    <Button
+        android:id="@+id/btnSavePatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Patient" />
+
+    <Button
+        android:id="@+id/btnViewPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View/Update Patient" />
+
+    <Button
+        android:id="@+id/btnEnterTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Test Results" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+</LinearLayout>

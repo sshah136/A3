@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etPatientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient ID" />
+
+    <EditText
+        android:id="@+id/etBPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="BPL" />
+
+    <EditText
+        android:id="@+id/etBPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="BPH" />
+
+    <EditText
+        android:id="@+id/etTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Temperature" />
+
+    <Button
+        android:id="@+id/btnSaveTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Test" />
+
+    <Button
+        android:id="@+id/btnViewTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Test" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+</LinearLayout>
